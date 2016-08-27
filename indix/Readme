@@ -1,0 +1,8 @@
+# prerequisites
+# install mysql
+# create a database db and a table 'products' inside db
+# import dataset in 'products'
+#create a mysql user and grant  only 'select' privilege
+#install shellinabox
+
+Then execute 'shellinabox' script
