@@ -1,0 +1,5 @@
+#!/bin/bash
+chmod +x background_script.py
+mv background_script.py /bin
+sudo shellinaboxd -t -s '/:root:root:/:/usr/bin/python /bin/background_script.py' -b
+# paste the link in browser 'https://localhost:4200'
